@@ -14,9 +14,13 @@
 		E1172C172A7CB92D00A169B0 /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1172C162A7CB92D00A169B0 /* MemoryStorage.swift */; };
 		E1172C192A7CD68600A169B0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1172C182A7CD68600A169B0 /* DetailViewController.swift */; };
 		E1172C1B2A7CD6D400A169B0 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1172C1A2A7CD6D400A169B0 /* EditViewController.swift */; };
+		E1172C1D2A7CDFCB00A169B0 /* MemoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1172C1C2A7CDFCB00A169B0 /* MemoListViewModel.swift */; };
+		E1172C1F2A7CE15200A169B0 /* EditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1172C1E2A7CE15200A169B0 /* EditViewModel.swift */; };
+		E1172C212A7CE17900A169B0 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1172C202A7CE17900A169B0 /* DetailViewModel.swift */; };
+		E1172C232A7CE1C800A169B0 /* ViewModelBindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1172C222A7CE1C800A169B0 /* ViewModelBindableType.swift */; };
 		E1A3A2622A7B3DD100B458EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3A2612A7B3DD100B458EE /* AppDelegate.swift */; };
 		E1A3A2642A7B3DD100B458EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3A2632A7B3DD100B458EE /* SceneDelegate.swift */; };
-		E1A3A2662A7B3DD100B458EE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3A2652A7B3DD100B458EE /* MainViewController.swift */; };
+		E1A3A2662A7B3DD100B458EE /* MemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3A2652A7B3DD100B458EE /* MemoListViewController.swift */; };
 		E1A3A26C2A7B3DD100B458EE /* MemoAppWithRxSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1A3A26A2A7B3DD100B458EE /* MemoAppWithRxSwift.xcdatamodeld */; };
 		E1A3A26E2A7B3DD200B458EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A3A26D2A7B3DD200B458EE /* Assets.xcassets */; };
 		E1A3A2712A7B3DD200B458EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A3A26F2A7B3DD200B458EE /* LaunchScreen.storyboard */; };
@@ -56,10 +60,14 @@
 		E1172C162A7CB92D00A169B0 /* MemoryStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryStorage.swift; sourceTree = "<group>"; };
 		E1172C182A7CD68600A169B0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		E1172C1A2A7CD6D400A169B0 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		E1172C1C2A7CDFCB00A169B0 /* MemoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListViewModel.swift; sourceTree = "<group>"; };
+		E1172C1E2A7CE15200A169B0 /* EditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewModel.swift; sourceTree = "<group>"; };
+		E1172C202A7CE17900A169B0 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		E1172C222A7CE1C800A169B0 /* ViewModelBindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBindableType.swift; sourceTree = "<group>"; };
 		E1A3A25E2A7B3DD100B458EE /* MemoAppWithRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoAppWithRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A3A2612A7B3DD100B458EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1A3A2632A7B3DD100B458EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E1A3A2652A7B3DD100B458EE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E1A3A2652A7B3DD100B458EE /* MemoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListViewController.swift; sourceTree = "<group>"; };
 		E1A3A26B2A7B3DD100B458EE /* MemoAppWithRxSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MemoAppWithRxSwift.xcdatamodel; sourceTree = "<group>"; };
 		E1A3A26D2A7B3DD200B458EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1A3A2702A7B3DD200B458EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -135,6 +143,10 @@
 		E1172C092A7CB30E00A169B0 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				E1172C1C2A7CDFCB00A169B0 /* MemoListViewModel.swift */,
+				E1172C1E2A7CE15200A169B0 /* EditViewModel.swift */,
+				E1172C202A7CE17900A169B0 /* DetailViewModel.swift */,
+				E1172C222A7CE1C800A169B0 /* ViewModelBindableType.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -142,7 +154,7 @@
 		E1172C0A2A7CB31700A169B0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E1A3A2652A7B3DD100B458EE /* MainViewController.swift */,
+				E1A3A2652A7B3DD100B458EE /* MemoListViewController.swift */,
 				E1A3A26F2A7B3DD200B458EE /* LaunchScreen.storyboard */,
 				E1172C182A7CD68600A169B0 /* DetailViewController.swift */,
 				E1172C1A2A7CD6D400A169B0 /* EditViewController.swift */,
@@ -155,7 +167,6 @@
 			children = (
 				E1172C152A7CB90400A169B0 /* CoreDataStorage */,
 				E1172C142A7CB8FD00A169B0 /* MemoryStorage */,
-				E1172C122A7CB81400A169B0 /* MemoStorageType.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -170,6 +181,7 @@
 		E1172C142A7CB8FD00A169B0 /* MemoryStorage */ = {
 			isa = PBXGroup;
 			children = (
+				E1172C122A7CB81400A169B0 /* MemoStorageType.swift */,
 				E1172C162A7CB92D00A169B0 /* MemoryStorage.swift */,
 			);
 			path = MemoryStorage;
@@ -476,13 +488,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1A3A2662A7B3DD100B458EE /* MainViewController.swift in Sources */,
+				E1A3A2662A7B3DD100B458EE /* MemoListViewController.swift in Sources */,
 				E1172C172A7CB92D00A169B0 /* MemoryStorage.swift in Sources */,
+				E1172C1D2A7CDFCB00A169B0 /* MemoListViewModel.swift in Sources */,
+				E1172C232A7CE1C800A169B0 /* ViewModelBindableType.swift in Sources */,
 				E1172C132A7CB81400A169B0 /* MemoStorageType.swift in Sources */,
 				E1A3A26C2A7B3DD100B458EE /* MemoAppWithRxSwift.xcdatamodeld in Sources */,
 				E1A3A2622A7B3DD100B458EE /* AppDelegate.swift in Sources */,
 				E1A3A2642A7B3DD100B458EE /* SceneDelegate.swift in Sources */,
+				E1172C212A7CE17900A169B0 /* DetailViewModel.swift in Sources */,
 				E1172C112A7CB50600A169B0 /* Memo.swift in Sources */,
+				E1172C1F2A7CE15200A169B0 /* EditViewModel.swift in Sources */,
 				E1172C192A7CD68600A169B0 /* DetailViewController.swift in Sources */,
 				E1172C1B2A7CD6D400A169B0 /* EditViewController.swift in Sources */,
 			);

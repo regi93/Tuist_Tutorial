@@ -8,7 +8,14 @@
 import UIKit
 
 
-class EditViewController: UIViewController {
+class EditViewController: UIViewController, ViewModelBindableType {    
+    typealias ViewModelType = EditViewModel
+    var viewModel: EditViewModel!
+    
+    func bindViewModel() {
+        
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
