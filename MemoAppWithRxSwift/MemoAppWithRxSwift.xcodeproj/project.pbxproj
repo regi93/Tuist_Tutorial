@@ -18,6 +18,7 @@
 		E1172C1F2A7CE15200A169B0 /* EditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1172C1E2A7CE15200A169B0 /* EditViewModel.swift */; };
 		E1172C212A7CE17900A169B0 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1172C202A7CE17900A169B0 /* DetailViewModel.swift */; };
 		E1172C232A7CE1C800A169B0 /* ViewModelBindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1172C222A7CE1C800A169B0 /* ViewModelBindableType.swift */; };
+		E13058942A8376E90064809F /* CommonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13058932A8376E90064809F /* CommonViewModel.swift */; };
 		E1A3A2622A7B3DD100B458EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3A2612A7B3DD100B458EE /* AppDelegate.swift */; };
 		E1A3A2642A7B3DD100B458EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3A2632A7B3DD100B458EE /* SceneDelegate.swift */; };
 		E1A3A2662A7B3DD100B458EE /* MemoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A3A2652A7B3DD100B458EE /* MemoListViewController.swift */; };
@@ -68,6 +69,7 @@
 		E1172C1E2A7CE15200A169B0 /* EditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewModel.swift; sourceTree = "<group>"; };
 		E1172C202A7CE17900A169B0 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		E1172C222A7CE1C800A169B0 /* ViewModelBindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBindableType.swift; sourceTree = "<group>"; };
+		E13058932A8376E90064809F /* CommonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViewModel.swift; sourceTree = "<group>"; };
 		E1A3A25E2A7B3DD100B458EE /* MemoAppWithRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoAppWithRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A3A2612A7B3DD100B458EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1A3A2632A7B3DD100B458EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				E1172C1E2A7CE15200A169B0 /* EditViewModel.swift */,
 				E1172C202A7CE17900A169B0 /* DetailViewModel.swift */,
 				E1172C222A7CE1C800A169B0 /* ViewModelBindableType.swift */,
+				E13058932A8376E90064809F /* CommonViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -513,6 +516,7 @@
 				E1F6FC8F2A83687700A041E2 /* SceneCoordinatorType.swift in Sources */,
 				E1172C212A7CE17900A169B0 /* DetailViewModel.swift in Sources */,
 				E1172C112A7CB50600A169B0 /* Memo.swift in Sources */,
+				E13058942A8376E90064809F /* CommonViewModel.swift in Sources */,
 				E1F6FC8B2A83556A00A041E2 /* TransitionModel.swift in Sources */,
 				E1172C1F2A7CE15200A169B0 /* EditViewModel.swift in Sources */,
 				E1172C192A7CD68600A169B0 /* DetailViewController.swift in Sources */,
