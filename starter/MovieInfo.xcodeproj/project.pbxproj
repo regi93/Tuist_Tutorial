@@ -3,21 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		16CC4DA3297A432A7AFC5211 /* TuistBundle+MovieInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277C42D9A2BC6F352256E721 /* TuistBundle+MovieInfo.swift */; };
 		2F22AB99C9F71DB6556CF18F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA9671127319786091C26FA /* ContentView.swift */; };
 		42CD1EB3A9F604A234A0C430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607256F6D563898DB46D4169 /* Assets.xcassets */; };
-		4AFCD7F6628DE056E06E3C61 /* MovieFetchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C52674E6A7B92952EF0DF2D /* MovieFetchError.swift */; };
-		5C28A4BC487072D88AC10FD4 /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D301D83A1186E0B447662F0 /* MovieResponse.swift */; };
-		81064A34111719F95EFE2B77 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB0B26A1E6911817B2C4858 /* Request.swift */; };
 		8E5973C9A9B9E03E3FFE1413 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F47878AD519F11A5291EA1 /* AppMain.swift */; };
 		A15E3C683522047CE408C19A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F0474EEBF52A4BBAA7CC5C /* LaunchScreen.storyboard */; };
 		AFF8A8AEC16BAC6215109EB0 /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23B9D94E6DBB5F1F44B19E9 /* MovieListViewModel.swift */; };
-		D907920B72E3C71B11535AB3 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B9A84F5C91C2CF484BA4CC /* Movie.swift */; };
-		E44511BF56C235819F92BAF2 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3407C29E68E8A269375372F /* Network.swift */; };
 		E585BD45580E42458C980603 /* TuistAssets+MovieInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CD8EC889AE704AB9D9B5C9 /* TuistAssets+MovieInfo.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,19 +31,14 @@
 
 /* Begin PBXFileReference section */
 		277C42D9A2BC6F352256E721 /* TuistBundle+MovieInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+MovieInfo.swift"; sourceTree = "<group>"; };
-		5C52674E6A7B92952EF0DF2D /* MovieFetchError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFetchError.swift; sourceTree = "<group>"; };
 		607256F6D563898DB46D4169 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7D301D83A1186E0B447662F0 /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
 		8662CF0ECA139BBD813D026D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		87CFE6BA5CFEA5490D69F83E /* MovieInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD971441089EC6379C4EAAF /* MovieInfoProject.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MovieInfoProject.xcconfig; sourceTree = "<group>"; };
 		AEA9671127319786091C26FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AFB0B26A1E6911817B2C4858 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
-		C3407C29E68E8A269375372F /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		C9CD8EC889AE704AB9D9B5C9 /* TuistAssets+MovieInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+MovieInfo.swift"; sourceTree = "<group>"; };
 		CAB154CFB3F67194D8681F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E23B9D94E6DBB5F1F44B19E9 /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
-		E6B9A84F5C91C2CF484BA4CC /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		E9F47878AD519F11A5291EA1 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,16 +128,6 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		957CC79FB29E2B79CDEE809E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				E6B9A84F5C91C2CF484BA4CC /* Movie.swift */,
-				5C52674E6A7B92952EF0DF2D /* MovieFetchError.swift */,
-				7D301D83A1186E0B447662F0 /* MovieResponse.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		B74FE172143013BFE6E76915 /* Project */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,21 +159,10 @@
 			isa = PBXGroup;
 			children = (
 				8788A9710561B85EC537C15C /* App */,
-				F8C42D6BCF05018AF52BDFDD /* Network */,
 				04F88D0483C7C2830533DE4D /* ViewModel */,
 				1608A7DEF5A2AD40E929A3D8 /* Views */,
 			);
 			path = Source;
-			sourceTree = "<group>";
-		};
-		F8C42D6BCF05018AF52BDFDD /* Network */ = {
-			isa = PBXGroup;
-			children = (
-				957CC79FB29E2B79CDEE809E /* Model */,
-				C3407C29E68E8A269375372F /* Network.swift */,
-				AFB0B26A1E6911817B2C4858 /* Request.swift */,
-			);
-			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,8 +193,6 @@
 			isa = PBXProject;
 			attributes = {
 				ORGANIZATIONNAME = JY;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = DADFB9D389893A887F314947 /* Build configuration list for PBXProject "MovieInfo" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -265,11 +232,6 @@
 				E585BD45580E42458C980603 /* TuistAssets+MovieInfo.swift in Sources */,
 				16CC4DA3297A432A7AFC5211 /* TuistBundle+MovieInfo.swift in Sources */,
 				8E5973C9A9B9E03E3FFE1413 /* AppMain.swift in Sources */,
-				D907920B72E3C71B11535AB3 /* Movie.swift in Sources */,
-				4AFCD7F6628DE056E06E3C61 /* MovieFetchError.swift in Sources */,
-				5C28A4BC487072D88AC10FD4 /* MovieResponse.swift in Sources */,
-				E44511BF56C235819F92BAF2 /* Network.swift in Sources */,
-				81064A34111719F95EFE2B77 /* Request.swift in Sources */,
 				AFF8A8AEC16BAC6215109EB0 /* MovieListViewModel.swift in Sources */,
 				2F22AB99C9F71DB6556CF18F /* ContentView.swift in Sources */,
 			);
