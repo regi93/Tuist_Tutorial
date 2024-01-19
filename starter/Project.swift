@@ -1,9 +1,14 @@
 import ProjectDescription
 
+let settings = Settings.settings(configurations: [
+    Configuration.debug(name: "debug", xcconfig: Path("config/MovieInfoProject.xcconfig")),
+    Configuration.release(name: "release", xcconfig: Path("config/MovieInfoProject.xcconfig"))
+])
+
 let project = Project(
     name: "MovieInfo",
     organizationName: "JY",
-    settings: nil,
+    settings: settings,
     targets: [// 1
         Target(
           // 2
